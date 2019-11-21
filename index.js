@@ -12,6 +12,9 @@ const server = express();
 
 */
 
+const users = ['Diego','Cláudio','Victor','Miro']
+
+
 server.get('/query', (req,res) =>{
   // http://localhost:3000/query?nome=miroswd
 
@@ -19,10 +22,10 @@ server.get('/query', (req,res) =>{
   return res.json({nome:`${nome}`})
 })
 
-server.get('/params/:id', (req,res) => { 
+server.get('/params/:index', (req,res) => { 
   // http://localhost:3000/params/miro
-  const {id} = req.params
-  return res.json({message:`${id}`})
+  const {index} = req.params
+  return res.json(users[index])
 });
 
 // req -> busca informações

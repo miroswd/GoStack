@@ -13,3 +13,8 @@ Crio as pastas
 -> Query params = ?teste=1         
 -> Routes params = /users/1       
 -> Request body = {"name":"Miro"} // Passado através de um corpo json
+
+// Utilizando o Insomnia
+Criado um método Get para exibir o conteúdo da URL
+
+Node => Ao executar, as variáveis são armazenadas
