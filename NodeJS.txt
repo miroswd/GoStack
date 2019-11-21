@@ -26,3 +26,23 @@ buscando o user através do index => user[index]
 >>> yarn add nodemon -D // -D flag de ferramenta de desenvolvimento
 
 Adiciono scripts no package.json (nodemon index.js)
+
+
+// CRUD - Create, Read, Update and Delete
+
+Na parte de create, apenas foi adicionado um nome, recebido através do body
+e adicionado ao array users
+
+Para a visualização desses dados, é necessário permitir a leitura de arquivos json
+
+
+Put -- Update/edição
+Necessário buscar o index do usuário
+Busquei o usuário pelo index e atualizei o nome 
+poderia ter usado desestruturação pro name, mas como era só um dado, economizei 1 linha
+
+
+Delete
+Preciso buscar o usuário pelo index
+Como está em um array, utilizarei o método splice(index, pos) de remover um item 
+
