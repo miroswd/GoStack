@@ -18,3 +18,9 @@ Crio as pastas
 Criado um método Get para exibir o conteúdo da URL
 
 Node => Ao executar, as variáveis são armazenadas
+
+buscando o user através do index => user[index]
+
+// Nodemon -> reinicialização do node de forma automática
+
+>>> yarn add nodemon -D

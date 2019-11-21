@@ -12,7 +12,7 @@ const server = express();
 
 */
 
-const users = ['Diego','Cláudio','Victor','Miro']
+const users = ['Diego','Cláudio','Victor','Miro','Papacu']
 
 
 server.get('/query', (req,res) =>{
