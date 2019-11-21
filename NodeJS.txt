@@ -1,0 +1,9 @@
+// Criando aplicação
+
+Crio as pastas
+>>> yarn init -y // Cria o arquivo package.json
+>>> yarn add express
+
+>>> yarn // instala todas as dependências listada no package
+
+- Criado um arquivo index.js
