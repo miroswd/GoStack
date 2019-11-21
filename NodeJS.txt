@@ -23,4 +23,6 @@ buscando o user através do index => user[index]
 
 // Nodemon -> reinicialização do node de forma automática
 
->>> yarn add nodemon -D
+>>> yarn add nodemon -D // -D flag de ferramenta de desenvolvimento
+
+Adiciono scripts no package.json (nodemon index.js)
