@@ -7,3 +7,9 @@ Crio as pastas
 >>> yarn // instala todas as dependências listada no package
 
 - Criado um arquivo index.js
+
+// Query e Routes Params
+
+-> Query params = ?teste=1         
+-> Routes params = /users/1       
+-> Request body = {"name":"Miro"} // Passado através de um corpo json
