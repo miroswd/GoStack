@@ -46,3 +46,20 @@ Delete
 Preciso buscar o usuário pelo index
 Como está em um array, utilizarei o método splice(index, pos) de remover um item 
 
+
+// MIDDLEWARES 
+Função que geralmente recebe req e res e manipula esses dados
+São passados 3 parâmetros: req, res,next
+O next faz com que a execução do código, não seja interrompida
+
+**Midleware Global
+É aplicado em todos os métodos abaixo dele
+
+**Middleware Local
+Aplicado diretamente na rota
+
+return bloqueia o fluxo
+
+a função é passada como parametro nas rotas, antes dos parametros (req,res)
+
+Os Middlewares podem alterar o req e res
